@@ -7,20 +7,18 @@ import java.util.Scanner;
 
 public class Problema {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); //bloco try-with-resources ausente.
 
         int[] lados = new int[3];
         for (int i = 0; i < lados.length; i++) {
-            System.out.print("Insert value for side "+(i+1)+": ");
+            System.out.print("Insira o valor para o lado "+(i+1)+": ");
             lados[i] = input.nextInt();
         }
 
         boolean greaterThanZero = lados[0] > 0 && lados[1] > 0 && lados[2] > 0;
-        boolean sumsGreaterThanThird = lados[0]+lados[1]>lados[2] || lados[0]+lados[2]>lados[1] || lados[1]+lados[2]>lados[0];
-        if (greaterThanZero && sumsGreaterThanThird) {
-            System.out.println("These 3 sides make an triangle.");
-        } else {
-            System.out.println("These 3 sides don't make an triangle.");
-        }
+        boolean sumsGreaterThanThird = lados[0]+lados[1]>lados[2] && lados[0]+lados[2]>lados[1] && lados[1]+lados[2]>lados[0];
+        boolean resultado = greaterThanZero && sumsGreaterThanThird;
+
+        System.out.printf("%d, %d e %d fazem um triângulo? %b.", lados[0], lados[1], lados[2], resultado);
     }
 }

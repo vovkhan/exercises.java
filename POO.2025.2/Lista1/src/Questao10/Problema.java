@@ -37,7 +37,9 @@ public class Problema {
 
         System.out.printf("O valor %d resulta na seguinte combinação de notas sortidas:%n", valorSaque);
         for (int i = 0; i < notas.length; i++) {
-            System.out.printf("%d notas de %d.%n", qtdNotas[i],  notas[i]);
+            if (qtdNotas[i] != 0) {
+                System.out.printf("%d notas de %d.%n", qtdNotas[i], notas[i]);
+            }
         }
     }
 }
