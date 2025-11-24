@@ -1,4 +1,4 @@
-package Questao1;
+package Q01;
 // (Deitel) Escreva um programa que, dado dois valores inteiros, determina se o primeiro é múltiplo do segundo e e imprime o resultado.
 public class Problema {
     private int numero1;

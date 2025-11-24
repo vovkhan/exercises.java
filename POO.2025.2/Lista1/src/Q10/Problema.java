@@ -1,4 +1,4 @@
-package Questao10;
+package Q10;
 
 import java.util.Scanner;
 

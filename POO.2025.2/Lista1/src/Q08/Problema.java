@@ -1,4 +1,4 @@
-package Questao8;
+package Q08;
 // (Deitel) Usando operações básicas, escreva um programa que, dado um número de cinco dígitos, separa o número
 // nos seus dígitos individuais e imprime os dígitos separados uns dos outros por três espaços. Por exemplo, se o
 // número é 42339, o programa deve imprimir "4 2 3 3 9".

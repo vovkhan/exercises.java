@@ -1,4 +1,4 @@
-package Questao4;
+package Q04;
 // (Deitel) Fatoriais costumam ser utilizados em problemas de probabilidade.
 // O fatorial de um inteiro positivo n, escrito como n! e pronunciado como "fatorial de n", é igual ao produto dos números inteiros positivos de 1 à n.
 // Escreva um programa que calcula os fatoriais de 1 à 20. Utilize o tipo long. Exiba os resultados em formato tabular.

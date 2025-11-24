@@ -1,4 +1,4 @@
-package Questao3;
+package Q03;
 // Usando loop, escreva um programa para exibir a seguinte tabela de valores:
 /*
 N   10*N    100*N   1000*N

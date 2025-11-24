@@ -1,4 +1,4 @@
-package Questao6;
+package Q06;
 // Considere duas variáveis X e Y que possam assumir valores entre -100 e 100.
 // Escreva um programa que imprima todos os valores de X e Y para os quais a soma X + Y seja igual a 100 ou igual a -100.
 

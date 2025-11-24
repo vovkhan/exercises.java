@@ -1,4 +1,4 @@
-package Questao2;
+package Q02;
 // (Deitel) Em uma grande empresa, o vendedor recebe R$200 por semana mais 9% das suas vendas da semana.
 // Por exemplo, um vendedor que vende R$5000 durante a semana recebe R$200 mais 9% de R$5000, totalizando R$650.
 // Dados os itens vendidos por um vendedor apresentados a seguir, crie um programa para calcular e exibir a remuneração semanal desse vendedor.

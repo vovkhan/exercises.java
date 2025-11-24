@@ -1,4 +1,4 @@
-package Questao7;
+package Q07;
 // Crie um programa que calcula e exibe o produto dos números inteiros ímpares entre 1 e 15.
 public class Problema {
     public static void main(String[] args) {

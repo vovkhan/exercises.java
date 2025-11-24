@@ -1,4 +1,4 @@
-package Questao5;
+package Q05;
 // (Deitel) Escreva um programa que determina se três valores diferentes de zero poderiam representar os lados de um triângulo.
 // O resultado deve ser impresso no console. Dica: A soma de quaisquer dois lados do triângulo deve ser maior que o terceiro lado.
 // Além disso, os lados devem ser positivos.

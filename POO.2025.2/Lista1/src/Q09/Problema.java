@@ -1,4 +1,4 @@
-package Questao9;
+package Q09;
 // Faça um programa que calcula o retorno de um investimento financeiro fazendo as contas mês a mês, sem usar a
 // fórmula de juros compostos. Dado o valor que será investido por mês e a taxa de juros mensal, o programa deve
 // informar o saldo do investimento após um ano (soma das aplicações mês a mês considerando os juros compostos).
