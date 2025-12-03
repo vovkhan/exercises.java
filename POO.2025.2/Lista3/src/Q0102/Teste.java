@@ -1,8 +1,9 @@
 package Q0102;
 
-import Q01.Problema;
+import Q0102.Problema;
 
 public class Teste {
+
     public static void main(String[] args) {
         System.out.printf("Problema com contrutor default:\n");
         Problema p1 = new Problema();
