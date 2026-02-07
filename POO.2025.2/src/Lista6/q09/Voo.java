@@ -12,7 +12,7 @@ sucedida;
 Identifique e implemente os atributos da classe com base nesses dados, além de outros métodos que possam se
 aplicar nesse contexto. Utilize o conceito de ocultação de informação.
 */
-
+/*
 import java.time.LocalDateTime;
 
 public class Voo {
@@ -25,3 +25,4 @@ public class Voo {
         this.hora = hora;
     }
 }
+ */
