@@ -26,7 +26,7 @@ public class Mensagem {
     }
 
     public void marcarComoLida() {
-        if(!lido) this.lido = true;
+        if(!this.lido) this.lido = true;
     }
 
     public String getRemetente() {
@@ -34,5 +34,8 @@ public class Mensagem {
     }
     public String getTexto() {
         return texto;
+    }
+    public boolean getLido() {
+        return this.lido;
     }
 }
